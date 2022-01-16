@@ -1,4 +1,8 @@
 ﻿# Ballistic Chart
+ 
+ BallisticChart - komponent
+ TestEnv - środowisko testowe
+ 
  Komponent ma za zadanie rysować krzywą balistyczną na osi X-Y, dla podanych wartości:
 	Początkowe współrzędne [x], [y]
 	Kąt [θ], grawitacja [g] i prędkość [v]
