@@ -14,15 +14,15 @@ import javax.swing.JFrame;
 public class BallisticChart extends Canvas {
 
 	private static final long serialVersionUID = 6075444260598962146L;
-	double VAL_X = 0, VAL_Y = 0, VAL_GRAVITY = 0, VAL_VELOCITY = 0,
+	private double VAL_X = 0, VAL_Y = 0, VAL_GRAVITY = 0, VAL_VELOCITY = 0,
 			VAL_A = 0;
-	int WIDTH_CANVAS = 400, HEIGHT_CANVAS = 400;
-	int FRAME_OFFSET = 50;
-	int ZOOM = 12;
-	int POINT_SIZE = 4;
-	Color COLOR = Color.getHSBColor(50, 100, 100);
-	String XTAG = "X";
-	String YTAG = "Y";
+	private int WIDTH_CANVAS = 400, HEIGHT_CANVAS = 400;
+	private int FRAME_OFFSET = 50;
+	private int ZOOM = 12;
+	private int POINT_SIZE = 4;
+	private Color COLOR = Color.getHSBColor(50, 100, 100);
+	private String XTAG = "X";
+	private String YTAG = "Y";
 	
 	
 	public void setValues(double x, double y, double gravi, double velo, double a, 
